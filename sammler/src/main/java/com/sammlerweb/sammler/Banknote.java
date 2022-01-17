@@ -21,7 +21,7 @@ public class Banknote {
 	@Column(name="CURRENCY")
 	private String currency;
 	
-	@Column(name="VALUEB")
+	@Column(name="VALUEB", nullable=false)
 	private Integer valueB;
 	
 	@Column(name="ISSUE_YEAR")
@@ -33,7 +33,7 @@ public class Banknote {
 	@Column(name="CITY")
 	private String city;
 	
-	@Column(name="SERIAL_NUMBER")
+	@Column(name="SERIAL_NUMBER", length=30, nullable=false)
 	private String serialNumber;
 	
 	@Column(name="CONDITIONB")
