@@ -1,4 +1,4 @@
-package com.sammlerweb.sammler;
+package com.sammlerweb.sammler.item;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
